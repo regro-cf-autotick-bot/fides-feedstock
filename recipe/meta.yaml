@@ -1,13 +1,13 @@
 {% set name = "fides" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fides-{{ version }}.tar.gz
-  sha256: bde89c10c4a346f5a5b9dd6994f8e5f11ec871f9725fcf0efabfeb0c56ad9c94
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/fides-{{ version }}.tar.gz
+  sha256: 1b0ab3bf7efb5fbb30ed5d7fae3e6731a35c8a7c559783cb9765c6317fcb9a95
 
 build:
   noarch: python
